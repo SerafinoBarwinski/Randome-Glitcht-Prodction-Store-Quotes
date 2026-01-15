@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glitcht Prodction Store Quotes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .quote {
+            text-align: center;
+            font-size: 1.5em;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+<img src="https://glitchproductions.store/cdn/shop/t/21/assets/contact-cain-presenting.webp?v=172353146367655541251759754465" alt="Cart character" loading="lazy" width="400" height="400" class="absolute bottom-[-25px] w-[325px] h-[325px] left-[-35px] rotate-[50deg] pointer-events-none select-none md:w-[450px] md:h-[450px] lg:w-[500px] lg:h-[500px]">
+<div class="quote" id="quote"></div>
+
+<script>
+    var quotes = [
+        "Hey guys, wanna see my Knees… oh and look at these things I guess, I don’t care…",
+        "Hey Buddy! Why don’t you fill more of your cravings here at Circus of Value!",
+        "Daisy, Daisy, Buy some more merch, will you?",
+        "Charlie won because he gave into greed, why not buy just one more item then?",
+        "It's all your fault… you should make up for what you did by adding more stuff to your cart… NOW!",
+        "Cart looks a bit light… you don’t wanna make the Machine upset now do you?",
+        "Why not add an extra item, or else Bubble will cry.",
+        "Wow! Look at all this stuff that's NOT in your cart!",
+        "Why you no buy more items, I go cry now.",
+        "“Ready to Check-Out” more like “Ready to Check-Out these other amazing products!”",
+        "Amazing! More items you can buy?! So… what are you waiting for… go on… add them…",
+        "Who are you, what are you doing in my house?!",
+        "If yoooooooooooooooooou can believe it, there is more where that came from!",
+        "Jumping balderdash, is that all you're getting?!?!",
+        "Candy is dandy, but look over there, more stuff to buy!",
+        "CONSUME",
+        "TIP #57: Buying more products makes you happy! Please buy more… or the spiders will nibble at your fingies",
+        "Really… that's all you're getting… man…",
+        "You look a bit blue today, why not buy more stuff, that will make you happy!",
+        "That's all you're getting… shameful… really…",
+        "I’m not going to force you bu- GET THIS STUFF TOO!",
+        "If you are greedy you will go far!",
+        "Buy Somethin'(else) Will Ya!",
+        "Remember the Gun episode?",
+        "Remember the Candy episode?",
+        "Remember the Ghost episode?",
+        "Remember the Episode episode?",
+        "Remember the Mcdonalds episode?"
+    ];
+
+    // Get a random quote
+    var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    document.getElementById("quote").innerText = randomQuote;
+</script>
+
+</body>
+</html>
